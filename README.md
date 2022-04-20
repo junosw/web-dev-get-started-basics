@@ -18,7 +18,7 @@ Step 1 to any good dev project is to create a code repo.  There are lots of good
 There are lots of tools out you can use for a code repo (aka source control) but one prolific industry standard is Git [(wikipedia link)](https://en.wikipedia.org/wiki/Git).  Git is awesome and there's a very nice web application that most people use with it - GitHub (github.com).  Both Git and GitHub are free... these are powerful tools with lots to learn but they are also very easy to use for the basics so don't get lost in the details. The goal is to just setup one code repo :)   Here are the steps:
 
 ## Set up the code repo
-1. Install Git on your local machine.  Instructions for most OS can be found here
+1. Install Git on your local machine.  [Instructions for most OS can be found here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 2. Create an account on GitHub
 3. Create a directory on your local machine where you want to keep your code
 4. (Optional) Setup security... basically, the goal is to connect your local machine to your GitHub account.  There are two ways you can authenticate with GitHub - username and password or SSH key.  SSH key is the most convenient over time but is likely the more difficult only because most people aren't familiar with using SSH keys :)  [Here are the instructions on how to do this](https://help.github.com/en/articles/connecting-to-github-with-ssh) or you can just skip this and use your username and password initially to get started. You can always setup an SSH key later if you find yourself getting tired of entering username/pw.
@@ -43,9 +43,9 @@ First thing you need is a code editor... think, "Microsoft Word" but for code. T
     2. This is a very basic web page and a basic folder structure.  Any project is free to organize the code however they like but typically people use expected conventions so that other developers can find things easily. 
     3. My use of "index" for file names is just a generic convention for "the starting point file".  Typically a web project would have many files with specific, meaningful names.
     4. The "templates", "styles" and "scripts" are the three building blocks of pretty much every web site.
-    5. [JQuery](https://jquery.com/) is a "library" that provides a bunch of basic functionality - you can see I'm using it here to change the image on button click (in `src/scripts/index.js`)
-5. "Run the app!" - this is an important step in any dev project - get the thing running locally.  For this project, this is drop-dead simple - just open `src/templates/index.html` in your browser and you'll see the web page I've made.
-6. "Modify the code" - using your code editor, open that same file and feel free to modify the html.  You can also modify styles/index.css or scripts/index.js to change the css style or javascript respectively. Each of these three technologies, HTML, CSS and Javascript are deep topics in and of themselves but you can see in this project that I've done something very basic and you can Google each thing I've added to learn more.
+    5. [JQuery](https://jquery.com/) is a [library](https://en.wikipedia.org/wiki/JavaScript_library#:~:text=A%20JavaScript%20library%20is%20a,and%20other%20web%2Dcentric%20technologies.) that provides a bunch of basic functionality - you can see I'm using it here to change the image on button click (in `src/scripts/index.js`)
+5. Run the app! - this is an important step in any dev project - get the thing running locally.  For this project, this is drop-dead simple - just open `src/templates/index.html` in your browser and you'll see the web page I've made.
+6. Modify the code - using your code editor, open that same file and feel free to modify the html.  You can also modify `styles/index.css` or `scripts/index.js` to change the css style or javascript respectively. Each of these three technologies, HTML, CSS and Javascript are deep topics in and of themselves but you can see in this project that I've done something very basic and you can Google each thing I've added to learn more.
     1. Once you've changed something, just refresh the page in the browser to see the change
     2. A very basic change to test this would be to just change "Web Dev Getting Started" to say something else
 
