@@ -4,39 +4,39 @@ The audience for this project is people that are interested in web development (
 
 There are of course approximately a billion resources for this kind of information on the web but primarily because there are so many sources of information, it is often overwhelming to determine what is the "best" or "right" way to get going. I'm a software developer myself with twenty years experience developing with numerous technologies and languages and this is my way of presenting "how to get started". It is intended for my family, friends and acquantances that have expressed any interest in learning how to be a software developer so that they can avoid the problem of feeling overwhelmed and hence never getting started and finding out if software dev is a good fit for them.
 
-There are many great ways someone could find out if software dev is a good fit for them - this is just one way. I believe the approach outlined below is a good approach for a couple of reasons:
+There are many great ways someone could find out if software dev is a good fit - this is just one way. I believe the approach outlined below is a good approach for a couple of reasons:
 
-1. Often people with no-to-little experience are not sure if they will be able to sustain an interst in software dev - they want to find out.  In this situation, starting at on "real dev things" is key - you will get to see what it is really like to do what software developers do with a small investment of your time. This tutorial introduces some keys tools and technologies developers use every day and using them right away is the best way to find out if you are interested in continuing down the path.
+1. Often people with no-to-little experience are not sure if they will be able to sustain an interst in software dev - they want to find out.  In this situation, starting out on "real dev things" is key - you will get to see what it is really like to do what software developers do with a small investment of your time. This tutorial introduces some keys tools and technologies developers use every day and using them right away is the best way to find out if you are interested in continuing down the path.
 
-2. This approach is straightforward, technically simple and can be done in small pieces to get working the basics of what any dev must know... in general. Depending on what languages you may end up working with, the details may be different and of course there are thousands of tools and platforms available to do dev work with. But in general, if you find _this particular_ process painful or uninteresting, software dev may not be for you.
+2. This approach is straightforward, technically simple and can be done in small pieces to get working the basics of what any dev must know... in general. Depending on what languages or platforms you may end up working with, the details may be different and of course there are thousands of tools and platforms available to do dev work with. But in general, if you find _this particular_ process painful or uninteresting, software dev may not be for you.
 
 With that preamble out of the way, hopefully this helps bootstrap your first dev project... the first of many!
 
 # Step 1
 Step 1 to any good dev project is to create a code repo.  There are lots of good reasons to use a code repo - [here's a link to a generic overview](https://www.atlassian.com/git/tutorials/what-is-version-control) if you're interested in learning more. The basic reason you would want to use a code repo is just to have a safe place to store your code in the cloud that is accessible from any device i.e. you don't have to worry about losing your project and to enable you to easily work with others.
 
-There are lots of tools out you can use for a code repo (aka source control) but one prolific industry standard is Git [(wikipedia link)](https://en.wikipedia.org/wiki/Git).  Git is awesome and there's a very nice web application that most people use with it - GitHub (github.com).  Both Git and GitHub are free... these are powerful tools with lots to learn but they are also very easy to use for the basics so don't get lost in the details. The goal is to just setup one code repo :)   Here are the steps:
+There are lots of tools out you can use for a code repo (aka source control) but one prolific industry standard is Git [(wikipedia link)](https://en.wikipedia.org/wiki/Git).  Git is awesome and there's a very nice web application that most people use with it - [GitHub](https://github.com/).  Both Git and GitHub are free... these are powerful tools with lots to learn but they are also very easy to use for the basics so don't get lost in the details. The goal for now is just to setup one code repo. Here are the steps:
 
 ## Set up the code repo
 1. Install Git on your local machine.  [Instructions for most OS can be found here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 2. Create an account on GitHub
 3. Create a directory on your local machine where you want to keep your code
 4. (Optional) Setup security... basically, the goal is to connect your local machine to your GitHub account.  There are two ways you can authenticate with GitHub - username and password or SSH key.  SSH key is the most convenient over time but is likely the more difficult only because most people aren't familiar with using SSH keys :)  [Here are the instructions on how to do this](https://help.github.com/en/articles/connecting-to-github-with-ssh) or you can just skip this and use your username and password initially to get started. You can always setup an SSH key later if you find yourself getting tired of entering username/pw.
-5. This particular repo is a "starter project". Clone this repo from GitHub into that local directory that you created in step 3. Here's how to clone:
-    1. From the command line in the project directory you created, using Git...
+5. This particular repo (that this README is a part... that you're reading right now) contains a "starter project". Clone this repo from GitHub into that local directory that you created in step 3. Here's how to clone:
+    1. From a terminal (a.k.a. command line) on your computer, in the project directory you created, using Git...
         1. it looks like this if you want to auth with username/pw: `git clone https://github.com/junosw/web-dev-get-started-basics.git`
         2. If using SSH, this is the command:  `git clone git@github.com:junosw/web-dev-get-started-basics.git`
 Just FYI, "junosw" is my GitHub username.
 
-If successful, at this point you have a local dev machine directory with code that you've sync'd from a code repo in GitHub! This is real developer stuff  :)  ...most every developer in the real world starts a project this way, whether a personal project or when joining a new company.  So let's go to Step 2 - do something with a real project.
+If successful, at this point you have a local dev directory with code that you've sync'd from a code repo in GitHub! This is real developer stuff  :)  ...most every developer in the real world starts a project this way, whether a personal project or when joining a new company.  So let's go to Step 2 - do something with a real project.
 
 # Step 2
 
-First thing you need is a code editor... think, "Microsoft Word" but for code. There are tons of editors out there, many are free.  A fairly popular one that I use that is free is VSCode.  You can get that [here](https://code.visualstudio.com/) or explore others and find one you want to try out.
+First thing you need is a code editor... think, "Microsoft Word" but for code. There are tons of editors out there, many are free.  A fairly popular one that I use is [VSCode](https://code.visualstudio.com/) (it is free). Download that one or explore others and find one you want to try out.
 
 ## Do something with the code
 1. Get code editor
-2. Open the code directory from step 1.3 above in the editor.  In VSCode this is just a matter of "Open folder" then browse to the directory you created, where the code is.
+2. In the editor, open the code directory you created earlier.  In VSCode this is just a matter of "Open folder" then browse to the directory you created, where the code is.
 3. At this point you should be looking at this starter project
 4. A couple notes on the project files/folders:
     1. "src" is very common shorthand for "the directory where the source code is at"
