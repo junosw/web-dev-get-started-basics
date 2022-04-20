@@ -53,9 +53,11 @@ First thing you need is a code editor... think, "Microsoft Word" but for code. T
 
 Learn more! ...or not :)
 
-Frankly, if you've followed all the steps, gotten this far and are _excited_ about what you're doing, choose the most interesting thing you have encountered and start learning more about it. If you're not excited and this whole process was boring or cumbersome, you could try some of things I've listed just below but ultimately software dev may not be for you.
+If you've followed all the steps, gotten this far and are _excited_ about what you're doing, good news - you might have the soul of a software developer! You should choose the most interesting thing you have encountered and start learning more about it. If that feels overwhelming, choose from the list below!
 
-Some ideas for more changes within this project:
+If you're not excited and this whole process was boring or cumbersome, you could try some of things I've listed just below but ultimately software dev may not be for you... but try anyway - you may get excited still cuz it is real awesome ;)
+
+## Some ideas for more changes within this project
 1. Add a new button (e.g. "Click me 2") that changes another set of images next to the current one.
 2. Take the two button-image sets and put borders around them and make them look nice on desktop and mobile.
 3. (Design oriented) Make the whole page prettier.
