@@ -62,6 +62,7 @@ If you're not excited and this whole process was boring or cumbersome, you could
 2. Take the two button-image sets and put borders around them and make them look nice on desktop and mobile.
 3. (Design oriented) Make the whole page prettier.
 4. (Tech oriented) Write an [AJAX](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX/Getting_Started) call to pull content from https://www.google.com and display it in this page.
+5. (Next level...) Make a server using [Node JS](https://nodejs.org/en/docs/guides/getting-started-guide/) and write an AJAX call from `index.html` to your server!
 
 From here, find good learning resources and just play around or figure out a real thing you want to build then find specific tools/packages/etc to build what you want.  I'm happy to help with either of those or some other way you might want to go :)   
 
